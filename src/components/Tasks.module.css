@@ -1,0 +1,154 @@
+.midlle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: -25px auto;
+    width: 736px;
+
+}
+
+.forms{
+    width: 100%;
+}
+
+.forms form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formTask input{
+    width: 80%;
+    padding: 15px;
+    background-color: var(--Gray-500);
+    border-radius: 8px;
+    border: none;
+
+    font-size: 1rem;
+    text-align: left;
+    margin-right: 2%;
+    height: 3rem;
+    color: var(--White);
+}
+
+.btn_Create button{
+    padding: 10px;
+    border-radius: 8px;
+    border: 0;
+    background: var(--BlueDark);
+    height: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--White);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn_Create button svg{
+    color: var(--White);
+    margin-left: 5px;
+}
+
+
+.topContent{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.tasksCreated{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.tasksCreated p{
+    color: var(--Blue);
+}
+
+.tasksCreated span{
+    background: var(--Gray-500);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--White);
+}
+
+.tasksFinished{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.tasksFinished p{
+    color: var(--Purple);
+}
+
+.tasksFinished span{
+    background: var(--Gray-500);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--White);
+}
+
+
+main{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.tasks {
+  background-color: var(--Gray-400);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btnUnCheck {
+  color: var(--Blue);
+}
+
+.btnCheck {
+  color: var(--Purple);
+}
+
+.tasks p {
+  margin: 0 30px;
+  color: var(--White);
+  font-size: 1rem;
+  font-weight: 300;
+  
+}
+
+.TaskFinished{
+    text-decoration: line-through;
+}
+
+.trash {
+  color: var(--Gray-300);
+  cursor: pointer;
+}
+
+

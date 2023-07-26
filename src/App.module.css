@@ -1,0 +1,14 @@
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+
+    background-color: var(--Gray-700);
+}
+
+body{
+    background-color: var(--Gray-600);
+}
+
